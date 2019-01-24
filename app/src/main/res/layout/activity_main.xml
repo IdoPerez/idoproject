@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ganiefes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Switch"
+        android:textSize="15dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <ToggleButton
+        android:id="@+id/tgb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ganiefes"
+        android:onClick="ido"/>
+</LinearLayout>
